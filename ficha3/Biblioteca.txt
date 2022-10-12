@@ -1,0 +1,13 @@
+Use case: registar requisição de livro
+Descrição: Funcionário regista a requisição de um livro
+Cenario: Cenários 1 a 3
+Pré-condição: true
+Pós-condição: foi impresso um comprovativo de requisição 
+Fluxo normal:-
+1. Actor fornece código de utente e código do livro
+2. Sistema verifica que o utente é válido e não tem livros em atraso
+3. Sistema valida que livro pode ser requisitado
+4. Sistema regista requisição
+5. Sistem imprime talão
+6. Actor retira talão
+
